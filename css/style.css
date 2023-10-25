@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color: #color;
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--offWhite);
+}
+
+a{
+    text-decoration: none;
+}
+
+.innerWrap{
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@media (min-width: 769px) {
+    .spOnly{
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .pcOnly{
+        display: none !important;
+    }
+}
+
+
+
+
